@@ -4,20 +4,20 @@
     "InitialLocation": "Crash Site on Mars",
     "Locations": {
         "Crash Site on Mars": {
-            "Body": "You are standing in front of your broken space rocket and need to gather supplies in order to repair it",
+            "Body": "You are standing in front of your broken space ship and need to gather supplies in order to repair it",
             "Choices": [
                 {
-                    "Text": "Go right to your space rocket",
+                    "Text": "Go right to your space ship",
                     "Target": "Walk right"
                 },
                 {
-                    "Text": "Go left to your space rocket",
+                    "Text": "Go left to your space ship",
                     "Target": "Walk left"
                 }
             ]
         },
         "Walk right": {
-            "Body": "In your search for supplies to your broken space rocket, you encounter a Martian patrol",
+            "Body": "In your search for supplies to your broken space ship, you encounter a Martian patrol",
             "Choices": [
                 {
                     "Text": "Run away from the Martian patrol",
@@ -37,8 +37,8 @@
                     "Target": "Space Café"
                 },
                 {
-                    "Text": "Go back to your space rocket",
-                    "Target": "Walk left"
+                    "Text": "Go back to the Martian patrol",
+                    "Target": "Walk right"
                 }
             ]
         },
@@ -50,8 +50,8 @@
                     "Target": "Loot the Martian"
                 },
                 {
-                    "Text": "Go back to your space rocket",
-                    "Target": "Walk left"
+                    "Text": "Go back the way you came from",
+                    "Target": "Walk right"
                 }
             ]
         },
@@ -61,6 +61,10 @@
                 {
                     "Text": "Continue further on your journey",
                     "Target": "Walk left"
+                },
+                {
+                    "Text": "Go back the way you came from",
+                    "Target": "Walk right"
                 }
             ],
             "Items": ["Coins", "Food"]
@@ -157,7 +161,7 @@
             ]
         },
         "Departure Point": {
-            "Body": "Away is good but home is best."
+            "Body": "Away is good but home is best. Earth here we come."
         }
     }
 }

@@ -106,7 +106,7 @@ class SpecialLocation extends Location {
         } else if (choice.Target === "Purchase Ship Supplies") {
             if (this.engine.inventory.includes("Translation Device")) {
                 this.engine.show("> " + choice.Text);
-                this.engine.show("You have successfully purchased what you needed in order to repair your rocket ship");
+                this.engine.show("You have successfully purchased what you needed in order to repair your space ship");
                 this.engine.addChoice("Ship Repair", { Text: "Repair the ship", Target: "Ship Repair" });
                 this.engine.addChoice("Tip the bartender", { Text: "Tip the bartender", Target: "Tip" });
             }
