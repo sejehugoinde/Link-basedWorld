@@ -10,7 +10,6 @@ class Engine {
         this.storyDataUrl = storyDataUrl;
         this.inventory = [];
 
-
         this.header = document.body.appendChild(document.createElement("h1"));
         this.output = document.body.appendChild(document.createElement("div"));
         this.actionsContainer = document.body.appendChild(document.createElement("div"));

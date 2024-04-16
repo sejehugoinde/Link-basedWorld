@@ -67,7 +67,7 @@
                     "Target": "Walk right"
                 }
             ],
-            "Items": ["Coins", "Food"]
+            "Items": ["Coins", "Jewelries"]
         },
         "Walk left": {
             "Body": "A Space Café is now in your horizon",
